@@ -1,0 +1,80 @@
+"vanilla_en","vanilla_fr","short_fr","short_en","ref_file"
+"Line No","No de la ligne","Ligne","Line",NA
+"Document ID number","Reference","Reference","Ref",1
+"Document type","Type de document","TypeDoc","DocType",1
+"Descriptive data quality","Cote de qualite des determinants","QAdeter","QAdeter",1
+"Sampling methodology quality","Cote de qualite de la metrologie","QAmetro","QAmeas",1
+"Sampling year                    (or years as a range)","Annee de l'evaluation","Annee","year",NA
+"Worker ID","Individu","Individu","workerID",NA
+"Trade or workstation as written in the document","Metier ou poste tel que decrit dans la reference","MetierREF","Trade_raw",NA
+"Task as written in the document","Tache telle que décrite dans la reference","TacheREF","Task_raw",NA
+"Tool as written in the document","Outil tel que decrit dans la reference","OutilREF","Tool_raw",NA
+"Brand and model of tool as written in the document","Marque et modele de l'outil si precise dans la reference","ToolModel","Tool_make",NA
+"Material as written in the document","Materiau tel que decrit dans la reference","MateriauREF","Material_raw",NA
+"% of crystalline silica in material documented","% de silice dans le materiau precise dans la reference","percSI_dispo","percSI_avail",1
+"% of crystalline silica (form undetermined) in material","% de silice (type non précisé) dans le matériau","percSI_mat","percSI_mat",NA
+"% of quartz in material","% de quartz dans le materiau","percQuartz_mat","percQuartz_mat",NA
+"% of cristobalite in material","% de cristobalite dans le materiau","percCrist_mat","percCrist_mat",NA
+"% of tridymite in material","% de tridymite dans le materiau","percTrid_mat","percTrid_mat",NA
+"% of tripoli in material","% de tripoli dans le materiau","percTrip_mat","percTrip_mat",NA
+"Assay method used for bulk sampling","Methode d'analyse du matériau en vrac","Mat_ana","Mat_ana",1
+"Trade","Quebec Metier code","MetierQC","Trade",1
+"Task","Tache code","TacheQC","Task",1
+"Material","Materiau code","MateriauQC","Material",1
+"Tool","Outil code","OutilQC","Tool",1
+"Construction site class","Quebec Classe de chantier","ClasseChantierQC","Site_class",1
+"Construction site type","Type de chantier","TypeChantierQC","Site_type",1
+"Contaminant measured","Nature du contaminant mesure","Contaminant","Agent",1
+"Number (n) of samples associated with the measurement value","Nombre de prelevements associes a cette mesure (n)","NbMesures","NbMeas",NA
+"Arithmetic mean (n>1)              (mg/m³)","AM                        Moyenne arithmétique (n>1)","AM","AM",NA
+"Standard deviation (n>1)","ASD                  Ecart-type arithmétique (n>1)","ASD","ASD",NA
+"Geometric mean (GM) (n>1)      (mg/m³)","GM                      Moyenne geometrique (n>1)","GM","GM",NA
+"Geometric standard deviation (GSD) (n>1)","GSD                   Ecart-type geometrique (n>1)","GSD","GSD",NA
+"Estimated GM (if GM not provided by the authors of the document)       (mg/m³)","GM estimée       (ND = Non disponible)","est_GM","est_GM",NA
+"Method used to estimate the GM","Source de l'estimation de la GM","est_GM_meth","est_GM_meth",NA
+"Estimated GSD (if GSD not provided by the authors of the document)","GSD estimé       (ND = Non disponible)","est_GSD","est_GSD",NA
+"Method used to estimate the GSD","Source de l'estimation du GSD","est_GSD_meth","est_GSD_meth",NA
+"Minimum (n>1)       (mg/m³)","Valeur minimum (n>1)","Min","Min",NA
+"5th  percentile (n>1)       (mg/m³)","5e  percentile (n>1)","P5","P5",NA
+"10th  percentile (n>1)       (mg/m³)","10e  percentile (n>1)","P10","P10",NA
+"Median (n>1)       (mg/m³)","Mediane (n>1)","Med","Med",NA
+"90th percentile (n>1)      (mg/m³)","90e percentile (n>1)","P90","P90",NA
+"95th percentile (n>1)      (mg/m³)","95e percentile (n>1)","P95","P95",NA
+"Maximum (n>1)    (mg/m³)","Valeur maximum (n>1)","Max","Max",NA
+"Other summary statistic value (n>1)  (mg/m³)","AutrValStat   (n>1)","Autre_stat","Other_stat",NA
+"Other summary statistic (n>1)","AutrValStatDef   (n>1)","Autre_stat_def","Other_stat_def",NA
+"Sampling type","Type de prelevement","Type","Type",1
+"Measurement associated with another one and reason for it in the database ?","Cette mesure est-elle associée à une autre mesure?","Association","Association",NA
+"Measurement association ID","Identifiant de l'association","IDassociation","IDassociation",1
+"Measurement association details","Détails de l'association","Association_detail","Association_detail",1
+"Raw measurement (n=1)       (mg/m³)","Valeur brute de la mesure                   (mg/m³)","ValeurBrute","Raw_measurement",NA
+"Sampling time     (minutes)","Duree du prelevement (minutes)","Duree","Sampling_time",NA
+"Sampling time provided or estimated","Duree du prelevement fournie ou deduite","Duree_2","Sampling_time2",1
+"Sampling objective","Objectif de la mesure","Objectif","Objective",1
+"Measurement value interpreted as a function of the sampling objective","Valeur calculee selon l'objectif de la mesure (mg/m³)","ValeurCalc","Calc_meas",NA
+"Origin of the interpreted measurement value","Valeur calculee par","IDCalc","IDCalc",1
+"PEV (Permissible exposure value)","VEA  Québec (mg/m³)","VEA_QC","OEL",NA
+"AAEV (adjusted average exposure value)","VEMA (100%)","Adjusted_VEA_QC","Adj_OEL",NA
+"Sampling method","Methode de prelevement","MethoPrelevement","Sampling_meth",1
+"Analytical method class","Type de methode d'analyse du prelevement","TypeAnalyse","Analysis_type",1
+"Specific analytical Method","Methode d'analyse du prelevement","MethoREFAnalyse","Analysis_meth",1
+"Details of the sampling and analytical methods","Détails si la méthode est non référencée","DetailAnalyse","Analysis_detail",1
+"Analytical detection limit (mg)","Limite de détection de la méthode d'analyse (mg)","LOD","LOD",NA
+"Work environment during sampling","Environnement","Environnement","Environnement",1
+"Contribution of second source to worker exposure","Source d'exposition a proximite","SourceProx","SourceProx",1
+"Second source role","Contribution au niveau d'exposition","Contribution","Contribution",1
+"Second source details","Details de l'autre tache polluante à proximité","Contribution_detail","Contribution_detail",1
+"Worker sampled received training on risks of silica exposure","Employé formé sur les risques associés à la silice","Formation","Training",1
+"Presence of control measure during sampling other than RPE","Moyen de maitrise autre qu'APR utilise (Non/oui)","MaitriseExAPR","ControlNotAPR",1
+"General ventilation","Ventilation generale (Non/oui)","VentGen","GenVent",1
+"Local exhaust ventilation","Ventilation par aspiration à proximite (Non/oui)","ventAspP","LEV_proxim",1
+"Exhaust ventilation on tool","Ventilation par aspiration sur l'outil (Non/oui)","ventAspO","LEV_tool",1
+"Material wetting","Procede humide (Arrosage) (Non/oui)","procHAr","Wet_spray",1
+"Water spray on tool","Procede humide integre à l'outil  (Non/oui)","procHO","Wet_tool",1
+"Separation from source","Isolement de la source (Non/oui)","isoSrc","EnclSrc",1
+"Other control measure","Maitrise Autre (Non/oui)","MaitrA","Other_control",1
+"Control measures details","Details des moyens de maitrise","DetailMaitrise","control_detail",1
+"RPE used during sampling","APR utilisé","APRused","RPEused",1
+"Type of RPE used","APR type","APRtype","RPEtype",1
+"Comments on RPE","Commentaires concernant les APR","APR_commentaire","RPE_remark",1
+"General comments","Commentaires généraux","commentaire","remark",1
